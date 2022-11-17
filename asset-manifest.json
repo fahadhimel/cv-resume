@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/cv-resume/static/css/main.b0cdea89.css",
+    "main.js": "/cv-resume/static/js/main.12843e2a.js",
+    "static/js/787.40788d2b.chunk.js": "/cv-resume/static/js/787.40788d2b.chunk.js",
+    "static/media/react1.gif": "/cv-resume/static/media/react1.d8ecf260aef7b84b0d71.gif",
+    "static/media/snowtexc.jpg": "/cv-resume/static/media/snowtexc.ee79ae8d72addeb82516.jpg",
+    "static/media/web1.jpg": "/cv-resume/static/media/web1.5e5413d99ca65069f005.jpg",
+    "static/media/code1.jpg": "/cv-resume/static/media/code1.ae29010e4c83d6ed397b.jpg",
+    "static/media/code2.jpg": "/cv-resume/static/media/code2.cf7b6bd11cab94294c3e.jpg",
+    "static/media/web3.png": "/cv-resume/static/media/web3.8fd1d16c6a5c6a983eaf.png",
+    "static/media/native3.gif": "/cv-resume/static/media/native3.200e0be2424c9f82f4c6.gif",
+    "static/media/about2.jpg": "/cv-resume/static/media/about2.98a3abcbc00f3d6b79a2.jpg",
+    "static/media/native4.png": "/cv-resume/static/media/native4.55129d77a4e1960978f0.png",
+    "static/media/code3.png": "/cv-resume/static/media/code3.3a2d363d696a5b930f57.png",
+    "static/media/native2.jpg": "/cv-resume/static/media/native2.f43de211197a13aeb841.jpg",
+    "static/media/bgfi2.jpg": "/cv-resume/static/media/bgfi2.afd24cb0f9992a2a24bd.jpg",
+    "static/media/native1.png": "/cv-resume/static/media/native1.71664a32780be5d28ebf.png",
+    "static/media/core2.png": "/cv-resume/static/media/core2.22cdfb9162bfafde66df.png",
+    "static/media/bg3.jpg": "/cv-resume/static/media/bg3.2716933da2a01ed67aa7.jpg",
+    "static/media/web2.jpg": "/cv-resume/static/media/web2.b1199974ceaa3c1c9f30.jpg",
+    "static/media/slick.svg": "/cv-resume/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/cv-resume/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/cv-resume/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/cv-resume/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/cv-resume/index.html",
+    "main.b0cdea89.css.map": "/cv-resume/static/css/main.b0cdea89.css.map",
+    "main.12843e2a.js.map": "/cv-resume/static/js/main.12843e2a.js.map",
+    "787.40788d2b.chunk.js.map": "/cv-resume/static/js/787.40788d2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0cdea89.css",
+    "static/js/main.12843e2a.js"
+  ]
+}
