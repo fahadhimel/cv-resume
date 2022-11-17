@@ -1,0 +1,252 @@
+.services-all {
+  background-image: url(../../Images/bg3.jpg);
+  background-size: cover;
+  padding: 70px 6%;
+  width: 100%;
+  text-align: center;
+}
+/* headet title */
+.services-head {
+  padding-bottom: 150px;
+  display: block;
+}
+
+/* .services-head span {
+} */
+.services-head span::after {
+  position: absolute;
+  content: "WHAT I DO";
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  top: 35%;
+}
+.services-head span {
+  position: absolute;
+  width: 90%;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #e8e8e9;
+}
+/* .services-body {
+   display: flex;
+    justify-content: space-between;
+    align-items: center; 
+} */
+.services-body-button,
+.services-body-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.services-item {
+  width: 30%;
+  background: white;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #e8e8e9;
+  cursor: pointer;
+  transition: 0.3s;
+  border-bottom: 5px solid var(--rootColor);
+}
+.services-item:hover {
+  background: var(--rootColor);
+}
+.services-item i {
+  padding: 25px;
+  font-size: 1.8rem;
+  background-color: var(--rootColor);
+  color: #fff;
+  border-radius: 100%;
+}
+.services-item:hover.services-item i{
+  background-color:#fff ;
+  color: var(--rootColor);
+}
+.services-item h5 {
+  font-weight: 600;
+  padding: 20px;
+}
+
+.services-item p {
+  font-family: "Montserrat", sans-serif;
+  /* display: flex; */
+  text-align: justify;
+}
+.services-item:hover.services-item h5,.services-item:hover.services-item p{
+  color: #fff;
+}
+
+@media screen and (max-width: 1080px) {
+  .services-all {
+    padding: 60px 5%;
+  }
+  /* headet title */
+  .services-head {
+    padding-bottom: 130px;
+  }
+
+  /* .services-head span {
+  } */
+  .services-head span::after {
+    font-size: 1.8rem;
+    top: 35%;
+  }
+  .services-head span {
+    font-size: 70px;
+  }
+  .services-item {
+    width: 30%;
+    /* margin-bottom: 20px;
+    padding: 10px; */
+  }
+  .services-item i {
+    padding: 18px;
+    font-size: 1.6rem;
+  }
+  .services-item h5 {
+    padding: 17px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .services-all {
+    padding: 50px 4%;
+  }
+  /* headet title */
+  .services-head {
+    padding-bottom: 130px;
+  }
+
+  /* .services-head span {
+  } */
+  .services-head span::after {
+    font-size: 1.6rem;
+    top: 35%;
+  }
+  .services-head span {
+    font-size: 60px;
+  }
+  .services-item i {
+    padding: 15px;
+    font-size: 1.4rem;
+  }
+  .services-item h5 {
+    padding: 15px;
+    font-size: 17px;
+  }
+  .services-item p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .services-all {
+    padding: 40px 3%;
+  }
+  /* headet title */
+  .services-head {
+    padding-bottom: 110px;
+  }
+
+  /* .services-head span {
+  } */
+  .services-head span::after {
+    font-size: 1.4rem;
+  }
+  .services-head span {
+    font-size: 50px;
+  }
+  .services-item i {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  .services-item h5 {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .services-item p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .services-all {
+    padding: 30px 2%;
+  }
+  /* headet title */
+  .services-head {
+    padding-bottom: 90px;
+  }
+
+  /* .services-head span {
+  } */
+  .services-head span::after {
+    font-size: 1.4rem;
+  }
+  .services-head span {
+    font-size: 50px;
+  }
+  .services-item i {
+    padding: 8px;
+    font-size: 1rem;
+  }
+  .services-item h5 {
+    padding: 8px;
+    font-size: 13px;
+  }
+  .services-item p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .services-all {
+    padding: 30px 2%;
+  }
+  /* headet title */
+  .services-head {
+    padding-bottom: 90px;
+  }
+
+  /* .services-head span {
+  } */
+  .services-head span::after {
+    font-size: 1.4rem;
+  }
+  .services-head span {
+    font-size: 50px;
+  }
+  .services-body-button,
+  .services-body-top {
+    display: block;
+    /* justify-content: space-around;
+  align-items: center; */
+  }
+  .services-item {
+    width: 100%;
+    padding: 10px auto;
+  }
+  .services-item i {
+    padding: 10px;
+    font-size: 1.3rem;
+  }
+  .services-item h5 {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .services-item p {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,91 @@
+:root {
+  --rootColor: #458ed8;
+  /* --rootColor: #458ed8; */
+  --red: #e92929;
+}
+
+.color-switcher {
+  position: fixed;
+  top: 80px;
+  right: -200px;
+  width: 200px;
+  padding: 10px;
+  /* background: #fff; */
+  z-index: 100;
+  border-bottom-left-radius: 15px;
+  -webkit-backdrop-filter: blur(8px) saturate(3);
+  backdrop-filter: blur(8px) saturate(3);
+  transition: 1s;
+}
+.color-switcher.colorview {
+  right: 0;
+}
+.color-switcher .switcher-btn {
+  position: absolute;
+  top: 0;
+  left: -53px;
+  color: var(--rootColor);
+  background: rgba(81, 97, 121, 0.432);
+  /* border-radius: 50%; */
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 30px;
+  z-index: 101;
+}
+.color-switcher .switcher-btn i {
+  animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.color-switcher h3 {
+  color: var(--rootColor);
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #3333;
+  padding: 5px 0;
+  text-align: center;
+}
+
+
+.color-switcher .theme-buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.color-switcher .theme-buttons-container .theme-buttons {
+  display: block;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:900px) {
+  .color-switcher {
+    right: -150px;
+    width: 150px;
+  }
+  .color-switcher h3 {
+    color: var(--rootColor);
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 3px 0;
+  }
+  
+  .color-switcher .switcher-btn {
+    font-size: 22px;
+    left: -40px;
+    padding: 3px 9px;
+  }
+  .color-switcher .theme-buttons-container .theme-buttons {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+  }
+}

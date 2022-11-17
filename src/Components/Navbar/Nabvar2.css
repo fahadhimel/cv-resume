@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+.section-main h1 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 80px;
+}
+header {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 100px;
+  transition: 0.6s;
+}
+/* scrolltop */
+.scrolltop {
+  position: fixed;
+  bottom: 800px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 20;
+  visibility: hidden;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.scrolltop.active {
+  bottom: 40px;
+  visibility: visible;
+  opacity: 1;
+}
+
+header.sticky {
+  background: #fff;
+  padding: 15px 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 0 5px rgb(143, 143, 143);
+}
+
+header .brand {
+  color: var(--rootColor);
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: 'Kaushan Script', cursive;
+  letter-spacing: 2px;
+}
+
+header .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .menu a {
+  position: relative;
+  color: var(--rootColor);
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 10px;
+  filter: brightness(100%);
+  transition: 0.3s;
+}
+header .menu a:hover {
+  filter: brightness(90%);
+}
+
+header .menu a::after {
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 0%;
+  background: var(--rootColor);
+  left: 0;
+  bottom: 0;
+  transition: 0.3s;
+}
+
+header .menu a::after {
+  left: unset;
+  right: 0;
+  width: 0;
+}
+header .menu a:hover::after {
+  right: unset;
+  left: 0;
+  width: 100%;
+}
+
+header .btnn {
+  color: var(--rootColor);
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+
+@media (max-width: 1060px) {
+  header .btnn {
+    display: block;
+  }
+  header .menu {
+    position: fixed;
+    -webkit-backdrop-filter: blur(8px) saturate(4);
+    backdrop-filter: blur(20px) saturate(2);
+    flex-direction: column;
+    min-width: 400px;
+    height: 100vh;
+    top: 0;
+    right: -100%;
+    transition: 0.5s;
+    transition-property: right;
+    z-index: 500;
+  }
+  header .menu.activeMenu {
+    right: 0;
+  }
+
+  header .menu .close-btnn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+  }
+  header .menu a {
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+  }
+  .scrolltop {
+    bottom: 800px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    background-size: 35px;
+  }
+}
+@media screen and (max-width: 720px) {
+  header .brand {
+    font-size: 22px;
+  }
+  header .menu a {
+    display: block;
+    font-size: 18px;
+    margin: 15px;
+  }
+
+  .scrolltop {
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-size: 35px;
+  }
+  .scrolltop.active {
+    bottom: 70px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .scrolltop {
+    right: 20px;
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    padding: 20px 30px;
+  }
+  header.sticky {
+    padding: 15px 30px;
+  }
+  header .brand {
+    font-size: 18px;
+  }
+  header .menu {
+    min-width: 250px;
+  }
+  header .menu .close-btnn {
+    font-size: 18px;
+  }
+  header .menu a {
+    font-size: 14px;
+    margin: 15px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .scrolltop {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  header .brand {
+    font-size: 16px;
+  }
+  header .menu {
+    min-width: 180px;
+  }
+  header .menu .close-btnn {
+    font-size: 16px;
+  }
+  header .menu a {
+    font-size: 12px;
+    margin: 10px;
+  }
+  .menu-btnn {
+    font-size: 22px;
+  }
+}

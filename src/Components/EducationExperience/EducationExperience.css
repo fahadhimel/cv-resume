@@ -1,0 +1,883 @@
+.educationexperience {
+  width: 100%;
+  padding: 70px 0;
+}
+/** */
+.educationexperience-head {
+  padding-bottom: 150px;
+  display: block;
+}
+
+.educationexperience-head span::after {
+  position: absolute;
+  content: "Education & Experience";
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  top: 35%;
+}
+.educationexperience-head span {
+  position: absolute;
+  width: 100%;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #e8e8e9;
+  letter-spacing: 3px;
+}
+/** */
+.educationexperience-body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  padding: 0 50px;
+}
+.educationexperience-left {
+  width: 100%;
+  border-right: 1px solid #afdcf8;
+}
+.educationexperience-left::after {
+  position: absolute;
+}
+.educationexperience-right {
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1.875em 3.125em;
+}
+.timeline {
+  margin: 28px 0 0 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--rootColor);
+  left: 13%;
+  z-index: 1;
+}
+.timeline > li .tmtime {
+  display: block;
+  width: 20%;
+  padding-right: 98px;
+  position: absolute;
+}
+.timeline > li .tmtime span {
+  display: block;
+  text-align: right;
+}
+.timeline > li .tmtime span:first-child {
+  font-size: 15px;
+  color: #bdd0db;
+}
+.timeline > li .tmtime span:last-child {
+  font-size: 24px;
+  /* color: #3594cb; */
+  color: var(--rootColor);
+}
+.timeline > li:nth-child(odd) .tmtime span:last-child {
+  /* color: #6cbfee; */
+  color: var(--rootColor);
+}
+.timeline > li .label {
+  margin: 20px 0 20px 20%;
+  background: var(--rootColor);
+  color: #fff;
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 0.5;
+  position: relative;
+  border-radius: 5px;
+  /* width: 100%; */
+}
+.timeline > li .label:hover {
+  filter: brightness(90%);
+}
+.timeline > li:nth-child(odd) .label {
+  background: var(--rootColor);
+}
+.timeline > li .label h2 {
+  font-size: 22px;
+  margin: 0;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.timeline > li .label::after {
+  right: 99.9%;
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-right-color: var(--rootColor);
+  border-width: 10px;
+  top: 14px;
+}
+.timeline > li:nth-child(odd) .label::after {
+  border-right-color: var(--rootColor);
+}
+
+.label-div {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+  padding-top: 5px;
+}
+.label-div-left {
+  width: 25%;
+}
+.label-div-left p {
+  line-height: 1;
+}
+.label-div-right {
+  width: 74%;
+}
+.label-div-right p {
+  line-height: 1;
+}
+.timeline > li .icon {
+  position: absolute;
+  display: flex;
+  width: 18px;
+  height: 18px;
+  font-family: "ecoico";
+  speak-as: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-size: 1.4em;
+  line-height: 40px;
+  color: #fff;
+  /* background: #46a4da; */
+  background: var(--rootColor);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--rootColor);
+  text-align: center;
+  /* margin: 15px 0px 0px 65px; */
+  margin: 2.5% 0px 0px 11.5%;
+  z-index: 2;
+}
+.label-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 70px;
+}
+.label-img-right .label-div-right-img .store-img {
+  position: relative;
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+.label-img-right .label-div-right-img::after {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 15px;
+  height: 98%;
+  width: 98%;
+  border: 4px solid rgb(223, 235, 236);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.label-div-right-img .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100px;
+  margin-left: -100%;
+  /* position: absolute; */
+  display: inline;
+  height: 100%;
+  z-index: 2;
+  color: #fff;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+  transition-delay: 0.25s;
+}
+.label-div-right-img .overlay i {
+  position: absolute;
+  width: 100px;
+  text-align: center;
+  opacity: 0;
+  bottom: 0;
+  display: block;
+  transition: 0.5s;
+  font-size: 30px;
+}
+.label-div-right-img .overlay:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+}
+
+.label-div-right-img .overlay:hover i {
+  opacity: 1;
+  bottom: 40%;
+  transition: 0.5s;
+  transition-delay: 0.3s;
+  color: rgb(160, 209, 209);
+}
+
+@media screen and (min-width: 1401px) {
+  .timeline > li .tmtime span:last-child {
+    font-size: 27px;
+  }
+  .timeline > li .icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .educationexperience {
+    padding: 55px 0;
+  }
+  /** */
+  .educationexperience-head {
+    padding-bottom: 130px;
+  }
+
+  .educationexperience-head span::after {
+    font-size: 1.5rem;
+    top: 35%;
+  }
+  .educationexperience-head span {
+    font-size: 65px;
+  }
+  /** */
+  .educationexperience-body {
+    padding: 0 35px;
+  }
+
+  .main {
+    padding: 0 1.2em 0.25em;
+  }
+  .timeline {
+    margin: 8px 0 0 0;
+  }
+  .timeline::after {
+    width: 1px;
+  }
+  .timeline > li .tmtime span:last-child {
+    font-size: 21px;
+  }
+  .timeline > li .label {
+    margin: 0px 0 20px 17%;
+    padding: 5px;
+    font-size: 97%;
+  }
+  .timeline > li .label h2 {
+    font-size: 140%;
+    padding: 0 0 15px 0;
+  }
+  .timeline > li .label::after {
+    border-width: 10px;
+    top: 7px;
+  }
+
+  .label-div {
+    padding-top: 0px;
+  }
+  .timeline > li .icon {
+    width: 13px;
+    height: 13px;
+    margin: 1.8% 0px 0px 11.8%;
+  }
+  .label-img {
+    padding: 10px 60px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .educationexperience {
+    padding: 55px 0;
+  }
+  /** */
+  .educationexperience-head {
+    padding-bottom: 130px;
+  }
+
+  .educationexperience-head span::after {
+    font-size: 1.5rem;
+    top: 35%;
+  }
+  .educationexperience-head span {
+    font-size: 65px;
+  }
+  /** */
+  .educationexperience-body {
+    padding: 0 35px;
+  }
+
+  .main {
+    padding: 0 0.2em 0.25em;
+  }
+  .timeline {
+    margin: 8px 0 0 0;
+  }
+  .timeline::after {
+    width: 1px;
+  }
+  .timeline > li .tmtime span:last-child {
+    font-size: 20px;
+  }
+  .timeline > li .label {
+    margin: 0px 0 20px 17%;
+    padding: 5px;
+    font-size: 87%;
+  }
+  .timeline > li .label h2 {
+    font-size: 130%;
+    padding: 0 0 15px 0;
+  }
+  .timeline > li .label::after {
+    border-width: 8px;
+    top: 7px;
+  }
+
+  .label-div {
+    padding-top: 0px;
+  }
+  .timeline > li .icon {
+    width: 13px;
+    height: 13px;
+    margin: 1.8% 0px 0px 11.8%;
+  }
+  .label-img {
+    padding: 10px 60px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .educationexperience {
+    padding: 55px 0;
+  }
+  /** */
+  .educationexperience-head {
+    padding-bottom: 130px;
+  }
+
+  .educationexperience-head span::after {
+    font-size: 1.5rem;
+    top: 35%;
+  }
+  .educationexperience-head span {
+    font-size: 65px;
+  }
+  /** */
+  .educationexperience-body {
+    padding: 0 20px;
+  }
+
+  .main {
+    padding: 0 0.2em 0.25em;
+  }
+  .timeline {
+    margin: 8px 0 0 0;
+  }
+  .timeline::after {
+    width: 1px;
+  }
+  .timeline > li .tmtime span:last-child {
+    font-size: 20px;
+  }
+  .timeline > li .label {
+    margin: 0px 0 20px 18%;
+    padding: 5px;
+    font-size: 87%;
+  }
+  .timeline > li .label h2 {
+    font-size: 130%;
+    padding: 0 0 15px 0;
+  }
+  .timeline > li .label::after {
+    border-width: 8px;
+    top: 7px;
+  }
+
+  .label-div {
+    padding-top: 0px;
+  }
+  .timeline > li .icon {
+    width: 13px;
+    height: 13px;
+    margin: 1.8% 0px 0px 11.7%;
+  }
+  .label-img {
+    padding: 10px 60px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .educationexperience {
+    padding: 55px 0;
+  }
+  /** */
+  .educationexperience-head {
+    padding-bottom: 130px;
+  }
+
+  .educationexperience-head span::after {
+    font-size: 1.5rem;
+    top: 35%;
+  }
+  .educationexperience-head span {
+    font-size: 65px;
+  }
+  /** */
+  .educationexperience-body {
+    padding: 0 20px;
+  }
+
+  .main {
+    padding: 0 0.2em 0.25em;
+  }
+  .timeline {
+    margin: 8px 0 0 0;
+  }
+  .timeline::after {
+    width: 1px;
+  }
+  .timeline > li .tmtime span:last-child {
+    font-size: 17px;
+  }
+  .timeline > li .label {
+    margin: 0px 0 20px 20%;
+    padding: 5px;
+    font-size: 75%;
+  }
+  .timeline > li .label h2 {
+    font-size: 130%;
+    padding: 0 0 10px 0;
+  }
+  .timeline > li .label::after {
+    border-width: 8px;
+    top: 4px;
+  }
+
+  .label-div {
+    padding-top: 0px;
+  }
+  .timeline > li .icon {
+    width: 13px;
+    height: 13px;
+    margin: 1.8% 0px 0px 11.5%;
+  }
+  .label-img {
+    padding: 10px 60px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .educationexperience {
+    padding: 50px 0;
+  }
+  /** */
+  .educationexperience-head {
+    padding-bottom: 130px;
+  }
+
+  .educationexperience-head span::after {
+    font-size: 1.6rem;
+    top: 35%;
+  }
+  .educationexperience-head span {
+    font-size: 70px;
+  }
+  /** */
+  .educationexperience-body {
+    padding: 0 10px;
+  }
+
+  .main {
+    padding: 0 0.2em 0.25em;
+  }
+  .timeline {
+    margin: 8px 0 0 0;
+  }
+  .timeline::after {
+    width: 1px;
+  }
+  .timeline > li .tmtime span:last-child {
+    font-size: 15px;
+  }
+  .timeline > li .label {
+    margin: 0px 0 20px 20%;
+    padding: 5px;
+    font-size: 67%;
+  }
+  .timeline > li .label h2 {
+    font-size: 140%;
+    padding: 0 0 10px 0;
+  }
+  .timeline > li .label::after {
+    border-width: 10px;
+    top: 4px;
+  }
+
+  .label-div {
+    padding-top: 0px;
+  }
+  .timeline > li .icon {
+    width: 15px;
+    height: 15px;
+    margin: 1.5% 0px 0px 11%;
+  }
+  .label-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .educationexperience {
+    padding: 50px 0;
+  }
+  /** */
+  .educationexperience-head {
+    padding-bottom: 80px;
+  }
+
+  .educationexperience-head span::after {
+    font-size: 25px;
+    top: 32%;
+    letter-spacing: 0px;
+  }
+  .educationexperience-head span {
+    font-size: 60px;
+    letter-spacing: 4px;
+  }
+
+  /** */
+  .educationexperience-body {
+    display: block;
+    padding: 0px 0;
+  }
+  .educationexperience-left {
+    border-right: none;
+  }
+  .main {
+    padding: 0 1.75em 0.125em;
+  }
+  .timeline::after {
+    width: 1px;
+  }
+  .timeline > li .tmtime {
+    width: 0%;
+  }
+  .timeline > li .tmtime span:last-child {
+    font-size: 27px;
+  }
+  .timeline > li .label {
+    margin: 0px 0 10px 20%;
+    padding: 0.5em;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .timeline > li .label h2 {
+    font-size: 23px;
+  }
+  .timeline > li .label::after {
+    top: 5px;
+  }
+
+  /** */
+  .timeline > li .icon {
+    width: 18px;
+    height: 18px;
+    font-size: 1.2em;
+    line-height: 40px;
+    margin: 1% 0px 0px 11.5%;
+  }
+  .label-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+  }
+  .label-img-right .label-div-right-img .store-img {
+    width: 120px;
+    height: 170px;
+  }
+}
+@media screen and (max-width: 668px) {
+  .timeline > li .tmtime span:last-child {
+    font-size: 24px;
+  }
+
+  .timeline > li .label {
+    margin: 0px 0 10px 20%;
+    padding: 0.5em;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .timeline > li .label h2 {
+    font-size: 21px;
+  }
+  .timeline > li .icon {
+    width: 16px;
+    height: 16px;
+    font-size: 1.2em;
+    line-height: 40px;
+    margin: 1% 0px 0px 11.5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .timeline > li .tmtime span:last-child {
+    font-size: 21px;
+  }
+
+  .timeline > li .label {
+    margin: 0px 0 10px 18%;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .timeline > li .label h2 {
+    font-size: 19px;
+  }
+  .timeline > li .icon {
+    width: 14px;
+    height: 14px;
+    font-size: 1.2em;
+    line-height: 40px;
+    margin: 1.5% 0px 0px 11.5%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .timeline > li .tmtime span:last-child {
+    font-size: 18px;
+  }
+
+  .timeline > li .label {
+    font-size: 13px;
+  }
+  .timeline > li .label h2 {
+    font-size: 18px;
+  }
+  .timeline > li .icon {
+    width: 13px;
+    height: 13px;
+    font-size: 1em;
+    line-height: 40px;
+    margin: 1.8% 0px 0px 11.5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .educationexperience {
+    padding: 50px 0;
+  }
+  /** */
+  .educationexperience-head {
+    padding-bottom: 80px;
+  }
+
+  .educationexperience-head span::after {
+    font-size: 22px;
+    top: 32%;
+    letter-spacing: 0px;
+  }
+  .educationexperience-head span {
+    font-size: 45px;
+    letter-spacing: 4px;
+  }
+
+  /** */
+  .educationexperience-body {
+    display: block;
+    padding: 0px 0;
+  }
+  .educationexperience-left {
+    border-right: none;
+  }
+  .main {
+    padding: 0 0.75em 0.125em;
+  }
+  .timeline::after {
+    width: 1px;
+  }
+  .timeline > li .tmtime {
+    width: 0%;
+  }
+  .timeline > li .tmtime span:last-child {
+    font-size: 17px;
+  }
+  .timeline > li .label {
+    margin: 0px 0 10px 20%;
+    padding: 0.5em;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .timeline > li .label h2 {
+    font-size: 15px;
+  }
+  .timeline > li .label::after {
+    top: 5px;
+  }
+
+  /** */
+  .timeline > li .icon {
+    width: 12px;
+    height: 12px;
+    font-size: 1.2em;
+    line-height: 40px;
+    margin: 2% 0px 0px 11.5%;
+  }
+  .label-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .educationexperience {
+    padding: 20px 0;
+  }
+  /** */
+  .educationexperience-head {
+    padding-bottom: 60px;
+  }
+
+  .educationexperience-head span::after {
+    font-size: 19px;
+    top: 30%;
+  }
+  .educationexperience-head span {
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+
+  /** */
+  .main {
+    padding: 0 0.55em 0.15em;
+  }
+  .timeline > li .tmtime span:last-child {
+    font-size: 15px;
+  }
+  .timeline > li .label {
+    margin: 0px 0 10px 20%;
+    padding: 0.5em;
+    font-size: 10px;
+  }
+  .timeline > li .label h2 {
+    font-size: 15px;
+  }
+  .timeline > li .label::after {
+    top: 3px;
+  }
+
+  /** */
+  .timeline > li .icon {
+    width: 10px;
+    height: 10px;
+    font-size: 1.2em;
+    line-height: 40px;
+    margin: 2% 0px 0px 11.5%;
+  }
+  .label-div-left p,
+  .label-div-right p {
+    font-size: 11.4px;
+  }
+  .label-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 60px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .label-div-left p,
+  .label-div-right p {
+    font-size: 10.4px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .educationexperience {
+    padding: 10px 0;
+  }
+  /** */
+  .educationexperience-head {
+    padding-bottom: 60px;
+  }
+
+  .educationexperience-head span::after {
+    font-size: 17px;
+  }
+  .educationexperience-head span {
+    font-size: 35px;
+  }
+
+  /** */
+  .main {
+    padding: 0 0.55em 0.15em;
+  }
+  .timeline > li .tmtime span:last-child {
+    font-size: 12px;
+  }
+  .timeline > li .label {
+    margin: 0px 0 10px 20%;
+    padding: 0.3em;
+    font-size: 8px;
+  }
+  .timeline > li .label h2 {
+    font-size: 11px;
+  }
+  .timeline > li .label::after {
+    top: 2px;
+  }
+
+  /** */
+  .timeline > li .icon {
+    width: 8px;
+    height: 8px;
+    font-size: 1em;
+    line-height: 40px;
+    margin: 2.5% 0px 0px 11.5%;
+  }
+
+  .label-div-left p,
+  .label-div-right p {
+    font-size: 9px;
+  }
+
+  .label-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+  }
+  .label-img-right .label-div-right-img .store-img {
+    width: 50px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .label-div-left p,
+  .label-div-right p {
+    font-size: 7.8px;
+  }
+}

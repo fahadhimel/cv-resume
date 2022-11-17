@@ -1,0 +1,311 @@
+.contact {
+  padding: 70px 6% 10px 6%;
+  background: #f9f9f9;
+}
+/* header title */
+.contact-head {
+  padding-bottom: 150px;
+  display: block;
+}
+
+.contact-head span::after {
+  position: absolute;
+  content: "CONTACT WITH ME!";
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  top: 35%;
+}
+.contact-head span {
+  position: absolute;
+  width: 90%;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #e8e8e9;
+}
+
+/* contact-first */
+.contact-first {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.contact-first-item {
+  width: 100%;
+  margin: 0 10px;
+  padding: 20px 40px;
+  background: #fff;
+  box-shadow: 0 0 10px #dfdbdb;
+  align-items: center;
+  text-align: center;
+}
+.contact-first-item span h4 {
+  color: var(--rootColor);
+}
+.contact-first-item p a {
+  position: relative;
+  text-decoration: none;
+  color: #575757;
+}
+.contact-first-item p a:hover {
+  color: var(--rootColor);
+}
+/* contact-second */
+.contact-second {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.contact-second-item {
+  width: 90%;
+  margin: 0 10px;
+  /* padding: 20px; */
+}
+.contact-second-item:nth-child(odd) {
+  /* margin: 10px; */
+  border: 5px solid white;
+  box-shadow: 0 0 5px 5px rgb(236, 234, 234);
+}
+.contact-second-item-input-first {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 10px 0;
+}
+.contact-second-item-input-second {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-second-item-input-third {
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-second-item-input-first input,
+.contact-second-item-input-second input {
+  width: 48%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px #dfdbdb;
+}
+.contact-second-item-input-third textarea {
+  width: 100%;
+  height: 180px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px #dfdbdb;
+}
+.contact-second-item-input-four button {
+  width: 100%;
+  height: 40px;
+  background-color: var(--rootColor);
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  box-shadow: 0 0 10px #dfdbdb;
+}
+/* contact-third */
+.social-media{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media i{
+font-size: 40px;
+padding: 5px 10px;
+color: var(--rootColor);
+cursor: pointer;
+border-radius: 5px;
+}
+.social-media i:hover{
+  background: var(--rootColor);
+  color: #fff;
+}
+.contact-third {
+  width: 100%;
+}
+.contact-third p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  padding:  10px 0 20px 0;
+}
+
+
+@media screen and (max-width:900px) {
+  .contact {
+    padding: 70px 4% 10px 4%;
+  }
+  /* header title */
+  .contact-head {
+    padding-bottom: 130px;
+    display: block;
+  }
+  
+  .contact-head span::after {
+    font-size: 1.5rem;
+    top: 35%;
+  }
+  .contact-head span {
+    font-size: 70px;
+  }
+  
+  /* contact-first */
+  .contact-first {
+    padding: 10px 0;
+  }
+  
+  .contact-first-item {
+    margin: 0 5px;
+    padding: 10px 20px;
+  }
+  .contact-first-item span h4{
+    font-size: 18px;
+  }
+  .contact-first-item span h4 i {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .contact {
+    padding: 60px 3% 10px 3%;
+  }
+  .contact-second {
+    display:block;
+    padding: auto 20px;
+  }
+  .contact-second-item {
+    width: 96%;
+
+  }
+  /* header title */
+  .contact-head {
+    padding-bottom: 100px;
+    display: block;
+  }
+  
+  .contact-head span::after {
+    font-size: 1.4rem;
+    top: 35%;
+  }
+  .contact-head span {
+    font-size: 60px;
+  }
+  
+  /* contact-first */
+  .contact-first {
+    padding: 0px 0;
+  }
+  
+  .contact-first-item {
+    margin: 0 4px;
+    padding: 10px 10px;
+  }
+  .contact-first-item span h4{
+    font-size: 16px;
+  }
+  .contact-first-item span h4 i {
+    font-size: 16px;
+  }
+  .contact-first-item p a{
+    font-size: 12px;
+  }
+
+  .contact-second-item-responsive{
+    display: inline-block;
+    margin-bottom: 20px;
+    height: 300px;
+  }
+  .contact-third p {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width:479px) {
+
+  .contact-head {
+    padding-bottom: 120px;
+    display: block;
+  }
+  
+  .contact-head span::after {
+    font-size: 1.2rem;
+    top: 35%;
+  }
+  .contact-head span {
+    font-size: 50px;
+  }
+  
+  /* contact-first */
+  .contact-first {
+    display: block;
+    padding: 0px 10px;
+  }
+  
+  .contact-first-item {
+    /* margin: 0 4px; */
+    padding: 15px 20px;
+    margin-bottom: 8px;
+  }
+  .contact-first-item span h4{
+    font-size: 20px;
+  }
+  .contact-first-item span h4 i {
+    font-size: 20px;
+  }
+  .contact-first-item p a{
+    font-size: 14px;
+  }
+
+  /** */
+  .contact-second-item-input-first {
+    display: block;
+    padding: 0;
+  }
+  .contact-second-item-input-second {
+    display: block;
+    padding: 0;
+  }
+  .contact-second-item-input-first input,
+  .contact-second-item-input-second input {
+    width: 100%;
+    height: 40px;
+    margin: 5px 0;
+    font-size: 15px;
+  }
+  .contact-second-item-input-third textarea {
+    height: 150px;
+    font-size: 15px;
+  }
+  .contact-second-item-input-four button {
+    height: 35px;
+  }
+
+/** */
+  .contact-third p {
+    font-size: 13px;
+    padding: 8px 0;
+  }
+
+}

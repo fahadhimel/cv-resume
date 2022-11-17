@@ -1,0 +1,522 @@
+.Ccontainer {
+  width: 100%;
+  height: auto;
+  padding: 6%;
+}
+.about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0px;
+}
+
+/*about left */
+.about-left {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.about-left img {
+  height: 500px;
+  box-shadow: 10px 10px 30px #a5a7a8;
+}
+
+.about-left-box {
+  position: relative;
+  height: 500px;
+  width: 373px;
+  background: #fff;
+}
+.about-left-box::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  transform: skewX(2deg) skewY(4deg);
+  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
+  border-radius: 5px;
+}
+.about-left-box::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  transform: skewX(3deg) skewY(5deg);
+  background: linear-gradient(315deg, #00ccff, #0e1538, #d400d4);
+  filter: blur(10px);
+}
+.about-left-box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../Images/about2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 5;
+  border-radius: 5px;
+}
+
+/* .about-right */
+.about-right .about-right-head {
+  padding-bottom: 150px;
+  display: block;
+}
+.about-right .about-right-head span::after {
+  position: absolute;
+  content: "ABOUT ME !";
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+  font-weight: 700;
+  top: 35%;
+}
+.about-right .about-right-head span {
+  position: absolute;
+  width: 40%;
+  display: block;
+  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #e8e8e9;
+}
+
+.about-right {
+  width: 100%;
+}
+.about-right h4 {
+  /* color: #60a8d8; */
+  color: var(--rootColor);
+}
+.about-right p {
+  width: 100%;
+  padding: 20px 0;
+  text-align: justify;
+  font-size: 15px;
+}
+.about-right .about-btn {
+  position: relative;
+  font-size: 16px;
+  color: var(--rootColor);
+  border: 2px solid var(--rootColor);
+  background: transparent;
+  padding: 6px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  transition: 0.4s all ease-in-out 0s;
+}
+.about-right .about-btn:hover {
+  color: #fff;
+}
+.about-right .about-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: var(--rootColor);
+  transition: 0.4s all ease-in-out 0s;
+}
+.about-right .about-btn::before {
+  left: unset;
+  right: 0;
+  width: 0;
+}
+.about-right .about-btn:hover::before {
+  right: unset;
+  left: 0;
+  width: 100%;
+}
+@media screen and (max-width: 1050px) {
+  /*about left */
+
+  .about-left img {
+    height: 300px;
+    box-shadow: 10px 10px 30px #a5a7a8;
+  }
+
+  .about-left-box {
+    position: relative;
+    height: 400px;
+    width: 300px;
+    background: #fff;
+  }
+
+  /* .about-right --------------------------------*/
+
+  .about-right .about-right-head {
+    padding-bottom: 80px;
+  }
+  .about-right .about-right-head span::after {
+    font-size: 1.5rem;
+  }
+  .about-right .about-right-head span {
+    font-size: 60px;
+  }
+
+  .about-right h4 {
+    font-size: 1.1rem;
+  }
+  .about-right p {
+    padding: 5px 0;
+    font-size: 13px;
+    width: 100%;
+  }
+  .about-right .about-btn {
+    font-size: 14px;
+    padding: 3px 10px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  /*about left */
+
+  .about-left img {
+    height: 250px;
+    box-shadow: 10px 10px 30px #a5a7a8;
+  }
+
+  .about-left-box {
+    position: relative;
+    height: 350px;
+    width: 250px;
+  }
+
+  /* .about-right --------------------------------*/
+  .about-right .about-right-head span::after {
+    font-size: 1.3rem;
+  }
+  .about-right .about-right-head span {
+    font-size: 50px;
+  }
+
+  .about-right h4 {
+    font-size: 1rem;
+  }
+  .about-right p {
+    padding: 5px 0;
+    font-size: 11px;
+  }
+  .about-right .about-btn {
+    font-size: 11px;
+    padding: 2px 6px;
+  }
+}
+@media screen and (max-width: 720px) {
+  /*about left */
+
+  .about-left img {
+    height: 200px;
+    box-shadow: 10px 10px 30px #a5a7a8;
+  }
+
+  .about-left-box {
+    position: relative;
+    height: 300px;
+    width: 200px;
+    background: #fff;
+  }
+
+  /* .about-right --------------------------------*/
+
+  .about-right .about-right-head {
+    padding-bottom: 65px;
+  }
+  .about-right .about-right-head span::after {
+    font-size: 1.1rem;
+  }
+  .about-right .about-right-head span {
+    font-size: 45px;
+  }
+
+  .about-right h4 {
+    font-size: 13px;
+  }
+  .about-right p {
+    padding: 2px 0;
+    font-size: 11px;
+  }
+  .about-right .about-btn {
+    font-size: 11px;
+    padding: 1.5px 5px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  /*about left */
+
+  .about {
+    padding: 0 20px;
+  }
+  .about-left img {
+    height: 130px;
+    box-shadow: 10px 10px 30px #a5a7a8;
+  }
+
+  .about-left-box {
+    position: relative;
+    height: 250px;
+    width: 180px;
+    background: #fff;
+  }
+
+  /* .about-right --------------------------------*/
+
+  .about-right .about-right-head {
+    padding-bottom: 60px;
+  }
+  .about-right .about-right-head span::after {
+    font-size: 15px;
+  }
+  .about-right .about-right-head span {
+    font-size: 40px;
+  }
+
+  .about-right h4 {
+    font-size: 10.5px;
+  }
+  .about-right p {
+    padding: 0px 0;
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+  .about-right .about-btn {
+    font-size: 10px;
+    padding: 1.5px 5px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  /*about left */
+
+  .about {
+    padding: 0 5px;
+  }
+  .about-left img {
+    height: 95px;
+    box-shadow: 10px 10px 30px #a5a7a8;
+  }
+
+  .about-left-box {
+    position: relative;
+    height: 210px;
+    width: 160px;
+    background: #fff;
+  }
+
+  /* .about-right --------------------------------*/
+
+  .about-right .about-right-head {
+    padding-bottom: 50px;
+  }
+  .about-right .about-right-head span::after {
+    font-size: 14px;
+  }
+  .about-right .about-right-head span {
+    font-size: 35px;
+  }
+
+  .about-right h4 {
+    font-size: 11px;
+  }
+  .about-right p {
+    padding: 0px 0;
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+  .about-right .about-btn {
+    font-size: 10px;
+    padding: 2px 4px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*about left */
+
+  .about {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  /*about left */
+
+  .about {
+    padding: 0 0px;
+  }
+
+  .about-left-box {
+    position: relative;
+    height: 250px;
+    width: 180px;
+    background: #fff;
+  }
+
+  /* .about-right --------------------------------*/
+  .about-right {
+    padding: 0 0 30px 0px;
+  }
+  .about-right .about-right-head {
+    padding-bottom: 70px;
+  }
+  .about-right .about-right-head span::after {
+    font-size: 17px;
+  }
+  .about-right .about-right-head span {
+    font-size: 50px;
+  }
+
+  .about-right h4 {
+    font-size: 15px;
+  }
+  .about-right p {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .about-right .about-btn {
+    font-size: 13px;
+    padding: 3px 6px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .about {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  /*about left */
+
+  .about {
+    padding: 0 0px;
+  }
+
+  .about-left-box {
+    position: relative;
+    height: 210px;
+    width: 150px;
+    background: #fff;
+  }
+
+  /* .about-right --------------------------------*/
+  .about-right {
+    padding: 0 0 30px 0px;
+  }
+  .about-right .about-right-head {
+    padding-bottom: 70px;
+  }
+  .about-right .about-right-head span::after {
+    font-size: 14px;
+  }
+  .about-right .about-right-head span {
+    font-size: 40px;
+  }
+
+  .about-right h4 {
+    font-size: 13px;
+  }
+  .about-right p {
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  .about-right .about-btn {
+    font-size: 11px;
+    padding: 3px 6px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .about {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  /*about left */
+
+  .about {
+    padding: 0 0px;
+  }
+  .about-left img {
+    height: 100px;
+    box-shadow: 10px 10px 30px #a5a7a8;
+  }
+
+  .about-left-box {
+    position: relative;
+    height: 200px;
+    width: 140px;
+    background: #fff;
+  }
+
+  /* .about-right --------------------------------*/
+  .about-right {
+    padding: 0 0 30px 0px;
+  }
+  .about-right .about-right-head {
+    padding-bottom: 45px;
+  }
+  .about-right .about-right-head span::after {
+    font-size: 13px;
+  }
+  .about-right .about-right-head span {
+    font-size: 35px;
+  }
+
+  .about-right h4 {
+    font-size: 11px;
+  }
+  .about-right p {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+  .about-right .about-btn {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+}
+
+@media screen and (max-width: 220px) {
+  .about-right {
+    padding: 0 0 20px 0px;
+  }
+  .about-right .about-right-head {
+    padding-bottom: 45px;
+  }
+  .about-right .about-right-head span::after {
+    font-size: 11px;
+  }
+  .about-right .about-right-head span {
+    font-size: 30px;
+  }
+
+  .about-right h4 {
+    font-size: 8.3px;
+  }
+  .about-right p {
+    font-size: 8px;
+  }
+  .about-right .about-btn {
+    font-size: 9px;
+    padding: 2px 4px;
+  }
+}
