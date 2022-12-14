@@ -41,7 +41,8 @@ const Clients = () => {
   return (
     <div className="ontainer">
       <div className="clients">
-        <div className="clients-item" data-aos="fade-up">
+        <div className="clients-item" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <i className="fa fa-smile"></i>
           <br />
           <span className="counter-numbers" data-number="2000">
@@ -50,7 +51,8 @@ const Clients = () => {
 
           <p>Happy Clients</p>
         </div>
-        <div className="clients-item" data-aos="fade-up">
+        <div className="clients-item" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <i className="fa fa-thumbs-up"></i>
           <br />
           <span className="counter-numbers" data-number="500">
@@ -60,7 +62,8 @@ const Clients = () => {
           {/* <span><Number n={500}/></span> */}
           <p>COMPLETED PROJECTS</p>
         </div>
-        <div className="clients-item" data-aos="fade-up">
+        <div className="clients-item" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <i className="fa fa-clock"></i>
           <br />
           <span className="counter-numbers" data-number="5000">
@@ -69,7 +72,8 @@ const Clients = () => {
           {/* <span>1500</span> */}
           <p>HOURS OF WORK</p>
         </div>
-        <div className="clients-item" data-aos="fade-up">
+        <div className="clients-item" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <i className="fa fa-star"></i>
           <br />
           <span className="counter-numbers" data-number="1200">

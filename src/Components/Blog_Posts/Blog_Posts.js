@@ -57,7 +57,8 @@ const blog_Posts = () => {
       <div className="blog-head">
         <span>RECENT BLOG</span>
       </div>
-      <div className="blog-post" data-aos="fade-up">
+      <div className="blog-post" data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom">
         <Slider {...settings}>
           <div className="blog-item">
             <div className="blog-item-top">

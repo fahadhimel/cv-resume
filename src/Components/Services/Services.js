@@ -12,7 +12,8 @@ const Services = () => {
         </div>
 
         <div className="services-body">
-          <div className="services-body-top" data-aos="fade-up">
+          <div className="services-body-top" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <div className="services-item">
               <i className="fa-solid fa-desktop"></i>
               <h5>Web Design</h5>
@@ -30,7 +31,7 @@ const Services = () => {
               <h5>Web Development</h5>
               <p>
                 <Content
-                  ddata={`I am create and maintain websites. I am responsible for the
+                  ddata={`I create and maintain websites. I am responsible for the
                 technical aspects of the site, such as its functionality and
                 capacity, which is a measure of a website's speed and how much
                 traffic the site can handle. I create content for the site.`}
@@ -49,7 +50,8 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="services-body-button" data-aos="fade-up">
+          <div className="services-body-button" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <div className="services-item">
               <i className="fa-solid fa-arrows-left-right-to-line"></i>
               <h5>API</h5>

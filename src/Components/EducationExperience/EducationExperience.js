@@ -11,7 +11,8 @@ const EducationExperience = () => {
         <span>Education</span>
       </div>
       <div className="educationexperience-body">
-        <div className="educationexperience-left" data-aos="fade-up">
+        <div className="educationexperience-left" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <div className="Conatiner">
             <div className="main">
               <ul className="timeline">
@@ -69,7 +70,8 @@ const EducationExperience = () => {
             </div>
           </div>
         </div>
-        <div className="educationexperience-right" data-aos="fade-up">
+        <div className="educationexperience-right" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <div className="Conatiner">
             <div className="main">
               <ul className="timeline">

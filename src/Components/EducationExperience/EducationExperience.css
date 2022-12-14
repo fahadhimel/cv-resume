@@ -304,7 +304,7 @@
   .timeline > li .icon {
     width: 13px;
     height: 13px;
-    margin: 1.8% 0px 0px 11.8%;
+    margin: 1.8% 0px 0px 11.9%;
   }
   .label-img {
     padding: 10px 60px;
@@ -611,7 +611,7 @@
     height: 18px;
     font-size: 1.2em;
     line-height: 40px;
-    margin: 1% 0px 0px 11.5%;
+    margin: 1% 0px 0px 11.8%;
   }
   .label-img {
     display: flex;
@@ -642,7 +642,7 @@
     height: 16px;
     font-size: 1.2em;
     line-height: 40px;
-    margin: 1% 0px 0px 11.5%;
+    margin: 1% 0px 0px 11.8%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -664,7 +664,7 @@
     height: 14px;
     font-size: 1.2em;
     line-height: 40px;
-    margin: 1.5% 0px 0px 11.5%;
+    margin: 1.5% 0px 0px 11.8%;
   }
 }
 
@@ -684,7 +684,7 @@
     height: 13px;
     font-size: 1em;
     line-height: 40px;
-    margin: 1.8% 0px 0px 11.5%;
+    margin: 1.8% 0px 0px 11.7%;
   }
 }
 
@@ -746,7 +746,7 @@
     height: 12px;
     font-size: 1.2em;
     line-height: 40px;
-    margin: 2% 0px 0px 11.5%;
+    margin: 2% 0px 0px 11.7%;
   }
   .label-img {
     display: flex;
@@ -798,7 +798,7 @@
     height: 10px;
     font-size: 1.2em;
     line-height: 40px;
-    margin: 2% 0px 0px 11.5%;
+    margin: 2% 0px 0px 11.7%;
   }
   .label-div-left p,
   .label-div-right p {
@@ -816,7 +816,7 @@
     font-size: 10.4px;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 366px) {
   .educationexperience {
     padding: 10px 0;
   }
@@ -857,7 +857,7 @@
     height: 8px;
     font-size: 1em;
     line-height: 40px;
-    margin: 2.5% 0px 0px 11.5%;
+    margin: 2.5% 0px 0px 12%;
   }
 
   .label-div-left p,

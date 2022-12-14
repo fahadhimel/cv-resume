@@ -8,7 +8,8 @@ const About = () => {
     <div className="Ccontainer" id="about">
       <div className="about">
         
-        <div className="about-right" data-aos="fade-up">
+        <div className="about-right" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">
           <div className="about-right-head">
             <span>ABOUT</span>
           </div>
@@ -22,6 +23,7 @@ const About = () => {
         </div>
         <div className="about-left">
           <div data-aos="fade-up" 
+          data-aos-anchor-placement="top-bottom"
           className="about-left-box">
             <span></span>
           </div>

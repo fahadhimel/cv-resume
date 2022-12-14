@@ -10,7 +10,8 @@ const Contact = () => {
           <span>Contact </span>
         </div>
         <div className="contact-first">
-          <div className="contact-first-item" data-aos="fade-up">
+          <div className="contact-first-item" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <span>
               <h4>
                 <i className="fa-solid fa-location-dot"></i>&nbsp; Address
@@ -22,7 +23,8 @@ const Contact = () => {
               <>Bangladesh</>
             </p>
           </div>
-          <div className="contact-first-item" data-aos="fade-up">
+          <div className="contact-first-item" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <span>
               <h4>
                 <i className="fa-solid fa-envelope"></i>&nbsp; Email
@@ -34,7 +36,8 @@ const Contact = () => {
               <a href="fahathimel@gmail.com">fahathimel@gmail.com</a>
             </p>
           </div>
-          <div className="contact-first-item" data-aos="fade-up">
+          <div className="contact-first-item" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <span>
               <h4>
                 <i className="fa-solid fa-phone"></i>&nbsp; Phone
@@ -52,7 +55,7 @@ const Contact = () => {
           <div
             className="contact-second-item contact-second-item-responsive"
             data-aos="fade-up"
-          >
+            data-aos-anchor-placement="top-bottom">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1743945.5310619348!2d89.8426282949568!3d24.291298767368787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1667441638703!5m2!1sen!2sbd"
               title="Dhaka"
@@ -60,7 +63,8 @@ const Contact = () => {
               loading="lazy"
             ></iframe>
           </div>
-          <div className="contact-second-item" data-aos="fade-up">
+          <div className="contact-second-item" data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <form action="https://formspree.io/f/mwkzwylo" method="POST">
               <div className="contact-second-item-input-first">
                 <input
