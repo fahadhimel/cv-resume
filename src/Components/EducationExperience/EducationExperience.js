@@ -110,7 +110,7 @@ const EducationExperience = () => {
                         <p>Related topic</p>
                       </div>
                       <div className="label-div-right">
-                        <p>: Snowtex Sportswear Ltd , Bangladesh.</p>
+                        <p>: Snowtex Outerwear LTD , Bangladesh.</p>
                         <p>: 2022 </p>
                         <p>: React js, ASP.Net Core, API, MSSQL,C#.</p>
                       </div>
