@@ -122,20 +122,20 @@
   box-shadow: 0 0 10px #dfdbdb;
 }
 /* contact-third */
-.social-media{
+.social-media {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.social-media i{
-font-size: 40px;
-padding: 5px 10px;
-color: var(--rootColor);
-cursor: pointer;
-border-radius: 5px;
+.social-media i {
+  font-size: 40px;
+  padding: 5px 10px;
+  color: var(--rootColor);
+  cursor: pointer;
+  border-radius: 5px;
 }
-.social-media i:hover{
+.social-media i:hover {
   background: var(--rootColor);
   color: #fff;
 }
@@ -148,11 +148,10 @@ border-radius: 5px;
   align-items: center;
   text-align: center;
   font-size: 1rem;
-  padding:  10px 0 20px 0;
+  padding: 10px 0 20px 0;
 }
 
-
-@media screen and (max-width:900px) {
+@media screen and (max-width: 900px) {
   .contact {
     padding: 70px 4% 10px 4%;
   }
@@ -161,7 +160,7 @@ border-radius: 5px;
     padding-bottom: 130px;
     display: block;
   }
-  
+
   .contact-head span::after {
     font-size: 1.5rem;
     top: 35%;
@@ -169,17 +168,17 @@ border-radius: 5px;
   .contact-head span {
     font-size: 70px;
   }
-  
+
   /* contact-first */
   .contact-first {
     padding: 10px 0;
   }
-  
+
   .contact-first-item {
     margin: 0 5px;
     padding: 10px 20px;
   }
-  .contact-first-item span h4{
+  .contact-first-item span h4 {
     font-size: 18px;
   }
   .contact-first-item span h4 i {
@@ -187,24 +186,23 @@ border-radius: 5px;
   }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
   .contact {
     padding: 60px 3% 10px 3%;
   }
   .contact-second {
-    display:block;
+    display: block;
     padding: auto 20px;
   }
   .contact-second-item {
     width: 96%;
-
   }
   /* header title */
   .contact-head {
     padding-bottom: 100px;
     display: block;
   }
-  
+
   .contact-head span::after {
     font-size: 1.4rem;
     top: 35%;
@@ -212,43 +210,46 @@ border-radius: 5px;
   .contact-head span {
     font-size: 60px;
   }
-  
+
   /* contact-first */
   .contact-first {
     padding: 0px 0;
   }
-  
+
   .contact-first-item {
     margin: 0 4px;
     padding: 10px 10px;
   }
-  .contact-first-item span h4{
+  .contact-first-item span h4 {
     font-size: 16px;
   }
   .contact-first-item span h4 i {
     font-size: 16px;
   }
-  .contact-first-item p a{
+  .contact-first-item p a {
     font-size: 12px;
   }
 
-  .contact-second-item-responsive{
+  .contact-second-item-responsive {
     display: inline-block;
     margin-bottom: 20px;
     height: 300px;
+  }
+  /* */
+  .social-media i {
+    font-size: 35px;
   }
   .contact-third p {
     padding: 20px 0;
   }
 }
 
-@media screen and (max-width:479px) {
-
+@media screen and (max-width: 479px) {
   .contact-head {
     padding-bottom: 120px;
     display: block;
   }
-  
+
   .contact-head span::after {
     font-size: 1.2rem;
     top: 35%;
@@ -256,25 +257,25 @@ border-radius: 5px;
   .contact-head span {
     font-size: 50px;
   }
-  
+
   /* contact-first */
   .contact-first {
     display: block;
     padding: 0px 10px;
   }
-  
+
   .contact-first-item {
     /* margin: 0 4px; */
     padding: 15px 20px;
     margin-bottom: 8px;
   }
-  .contact-first-item span h4{
+  .contact-first-item span h4 {
     font-size: 20px;
   }
   .contact-first-item span h4 i {
     font-size: 20px;
   }
-  .contact-first-item p a{
+  .contact-first-item p a {
     font-size: 14px;
   }
 
@@ -302,10 +303,13 @@ border-radius: 5px;
     height: 35px;
   }
 
-/** */
+  /** */
+
+  .social-media i {
+    font-size: 30px;
+  }
   .contact-third p {
     font-size: 13px;
     padding: 8px 0;
   }
-
 }

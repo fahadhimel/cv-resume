@@ -45,7 +45,7 @@ const Home = () => {
             </h2>
 
             <div className="home-div-btn">
-              <a href="/" className="home-left-btn">
+              <a href="#about" className="home-left-btn">
                 READ MORE
               </a>
               <a href="#contact" className="home-right-btn">

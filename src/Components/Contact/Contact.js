@@ -118,6 +118,9 @@ const Contact = () => {
         {/* contact-third */}
         <div className="contact-third">
           <div className="social-media">
+            <a href="https://github.com/fahadhimel">
+              <i className="fa-brands fa-github"></i>
+            </a>
             <a href="https://web.facebook.com/fahad.himel.1?_rdc=1&_rdr">
               <i className="fa-brands fa-square-facebook"></i>
             </a>
