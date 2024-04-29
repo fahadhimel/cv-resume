@@ -17,7 +17,7 @@ const About = () => {
           <p>
           Creating ideas and giving them life is one of my strengths and hobbies. So these are not only my profession but also my lifestyle. I have done few works so far including web application and android application. For Web I learned HTML5, Css3, Javascript, React js, jQuery, Bootstrap, and React-Native for Android, and also have ASP.NET,ASP.NET Core, MVC Framework, Web API, MSSQl.
           </p>
-          <a href='https://drive.google.com/file/d/1A6aBypJw-9oTVmgBJRwM0PGZvPYArLJ8/view?usp=sharing' download className="about-btn">
+          <a href='https://drive.google.com/file/d/1dl8tuthP25dXewN2ZDr0qwuhsTAIbNkI/view?usp=sharing' download className="about-btn">
             Download CV
           </a>
         </div>
