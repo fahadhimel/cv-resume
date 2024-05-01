@@ -145,6 +145,19 @@
   text-align: start;
   padding-top: 5px;
 }
+.experience_content{
+  text-align: start;
+}
+.experience_p{
+  margin: 0px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 100;
+  text-align: justify;
+}
+.experience_p p{
+  margin: 0;
+}
 .label-div-left {
   width: 25%;
 }
@@ -180,67 +193,8 @@
   margin: 2.5% 0px 0px 11.5%;
   z-index: 2;
 }
-.label-img {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 70px;
-}
-.label-img-right .label-div-right-img .store-img {
-  position: relative;
-  width: 100px;
-  height: 150px;
-  border-radius: 5px;
-  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.2);
-  z-index: 2;
-}
-.label-img-right .label-div-right-img::after {
-  content: "";
-  position: absolute;
-  left: -15px;
-  top: 15px;
-  height: 98%;
-  width: 98%;
-  border: 4px solid rgb(223, 235, 236);
-  border-radius: 5px;
-  z-index: 1;
-}
 
-.label-div-right-img .overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100px;
-  margin-left: -100%;
-  /* position: absolute; */
-  display: inline;
-  height: 100%;
-  z-index: 2;
-  color: #fff;
-  border-radius: 5px;
-  opacity: 0;
-  transition: opacity 0.2s ease-out;
-  transition-delay: 0.25s;
-}
-.label-div-right-img .overlay i {
-  position: absolute;
-  width: 100px;
-  text-align: center;
-  opacity: 0;
-  bottom: 0;
-  display: block;
-  transition: 0.5s;
-  font-size: 30px;
-}
-.label-div-right-img .overlay:hover {
-  opacity: 1;
-  transition: opacity 0.2s ease-out;
-}
 
-.label-div-right-img .overlay:hover i {
-  opacity: 1;
-  bottom: 40%;
-  transition: 0.5s;
-  transition-delay: 0.3s;
-  color: rgb(160, 209, 209);
-}
 
 @media screen and (min-width: 1401px) {
   .timeline > li .tmtime span:last-child {
@@ -306,9 +260,7 @@
     height: 13px;
     margin: 1.8% 0px 0px 11.9%;
   }
-  .label-img {
-    padding: 10px 60px;
-  }
+
 }
 
 @media screen and (max-width: 1180px) {
@@ -366,9 +318,7 @@
     height: 13px;
     margin: 1.8% 0px 0px 11.8%;
   }
-  .label-img {
-    padding: 10px 60px;
-  }
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -426,9 +376,7 @@
     height: 13px;
     margin: 1.8% 0px 0px 11.7%;
   }
-  .label-img {
-    padding: 10px 60px;
-  }
+
 }
 
 @media screen and (max-width: 970px) {
@@ -486,9 +434,7 @@
     height: 13px;
     margin: 1.8% 0px 0px 11.5%;
   }
-  .label-img {
-    padding: 10px 60px;
-  }
+
 }
 
 @media screen and (max-width: 870px) {
@@ -541,15 +487,12 @@
   .label-div {
     padding-top: 0px;
   }
+
+
   .timeline > li .icon {
     width: 15px;
     height: 15px;
     margin: 1.5% 0px 0px 11%;
-  }
-  .label-img {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 50px;
   }
 }
 
@@ -612,15 +555,6 @@
     font-size: 1.2em;
     line-height: 40px;
     margin: 1% 0px 0px 11.8%;
-  }
-  .label-img {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 150px;
-  }
-  .label-img-right .label-div-right-img .store-img {
-    width: 120px;
-    height: 170px;
   }
 }
 @media screen and (max-width: 668px) {
@@ -748,11 +682,6 @@
     line-height: 40px;
     margin: 2% 0px 0px 11.7%;
   }
-  .label-img {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 70px;
-  }
 }
 
 @media screen and (max-width: 430px) {
@@ -804,15 +733,16 @@
   .label-div-right p {
     font-size: 11.4px;
   }
-  .label-img {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 60px;
+  .experience_p p{
+    font-size: 11.4px;
   }
 }
 @media screen and (max-width: 400px) {
   .label-div-left p,
   .label-div-right p {
+    font-size: 10.4px;
+  }
+  .experience_p p{
     font-size: 10.4px;
   }
 }
@@ -864,20 +794,17 @@
   .label-div-right p {
     font-size: 9px;
   }
+  .experience_p p{
+    font-size: 9px;
+  }
 
-  .label-img {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 60px;
-  }
-  .label-img-right .label-div-right-img .store-img {
-    width: 50px;
-    height: 80px;
-  }
 }
 @media screen and (max-width: 320px) {
   .label-div-left p,
   .label-div-right p {
+    font-size: 7.8px;
+  }
+  .experience_p p{
     font-size: 7.8px;
   }
 }
