@@ -36,10 +36,10 @@ const Home = () => {
                 typingDelay={200}
                 cursor=""
                 text={[
-                  "Web Developer",
-                  "Android Developer",
-                  "Awesome Blogger",
-                  "web designer",
+                  "Full-Stack Developer",
+                  "Good Learner",
+                  "Professional Developer",
+                  "Web Designer",
                 ]}
               />
             </h2>

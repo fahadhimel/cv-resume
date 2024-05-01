@@ -43,19 +43,19 @@ const Progress = () => {
         <span>Skills </span>
       </div>
 
-      <div className="progress_container1">
+      <div className="progress_container1" >
         <div className="progress1" data-aos="fade-up"
         data-aos-anchor-placement="top-bottom">
           <div className="progress_item1">
             <h5 className="progress_title1">Html5</h5>
             <div className="progress_bar1">
-              <div className="bar1" data-value="80" data-text="80"></div>
+              <div className="bar1" data-value="90" data-text="90"></div>
             </div>
           </div>
           <div className="progress_item1">
-            <h5 className="progress_title1">Css3</h5>
+            <h5 className="progress_title1">Css3-Scss</h5>
             <div className="progress_bar1">
-              <div className="bar1" data-value="75" data-text="75"></div>
+              <div className="bar1" data-value="90" data-text="90"></div>
             </div>
           </div>
           <div className="progress_item1">
@@ -65,7 +65,7 @@ const Progress = () => {
             </div>
           </div>
           <div className="progress_item1">
-            <h5 className="progress_title1">Scss</h5>
+            <h5 className="progress_title1">Material UI</h5>
             <div className="progress_bar1">
               <div className="bar1" data-value="65" data-text="65"></div>
             </div>
@@ -76,13 +76,19 @@ const Progress = () => {
           <div className="progress_item1">
             <h5 className="progress_title1">JavaScript</h5>
             <div className="progress_bar1">
-              <div className="bar1" data-value="80" data-text="80"></div>
+              <div className="bar1" data-value="90" data-text="90"></div>
             </div>
           </div>
           <div className="progress_item1">
-            <h5 className="progress_title1">React js</h5>
+            <h5 className="progress_title1">TypeScript</h5>
             <div className="progress_bar1">
-              <div className="bar1" data-value="80" data-text="80"></div>
+              <div className="bar1" data-value="90" data-text="90"></div>
+            </div>
+          </div>
+          <div className="progress_item1">
+            <h5 className="progress_title1">React-Vite</h5>
+            <div className="progress_bar1">
+              <div className="bar1" data-value="90" data-text="90"></div>
             </div>
           </div>
           <div className="progress_item1">
@@ -91,19 +97,19 @@ const Progress = () => {
               <div className="bar1" data-value="60" data-text="60"></div>
             </div>
           </div>
-          <div className="progress_item1">
-            <h5 className="progress_title1">React Native</h5>
-            <div className="progress_bar1">
-              <div className="bar1" data-value="60" data-text="60"></div>
-            </div>
-          </div>
         </div>
         <div className="progress1 responsive" data-aos="fade-up"
         data-aos-anchor-placement="top-bottom">
           <div className="progress_item1">
-            <h5 className="progress_title1">MSSQL</h5>
+            <h5 className="progress_title1">MYSQL-MSSQL</h5>
             <div className="progress_bar1">
-              <div className="bar1" data-value="70" data-text="70"></div>
+              <div className="bar1" data-value="75" data-text="75"></div>
+            </div>
+          </div>
+          <div className="progress_item1">
+            <h5 className="progress_title1">Nest Js</h5>
+            <div className="progress_bar1">
+              <div className="bar1" data-value="85" data-text="85"></div>
             </div>
           </div>
           <div className="progress_item1">
@@ -113,17 +119,17 @@ const Progress = () => {
             </div>
           </div>
           <div className="progress_item1">
-            <h5 className="progress_title1">API</h5>
+            <h5 className="progress_title1">TypeOrm</h5>
             <div className="progress_bar1">
-              <div className="bar1" data-value="70" data-text="70"></div>
+              <div className="bar1" data-value="80" data-text="80"></div>
             </div>
           </div>
-          <div className="progress_item1">
+          {/* <div className="progress_item1">
             <h5 className="progress_title1">Java</h5>
             <div className="progress_bar1">
               <div className="bar1" data-value="40" data-text="40"></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
