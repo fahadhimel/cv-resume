@@ -11,7 +11,7 @@ const Clients = () => {
         if (!entry.isIntersecting) return;
 
         const counterNum = document.querySelectorAll(".counter-numbers");
-        const speed = 100;
+        const speed = 50;
 
         counterNum.forEach((curElem) => {
           const updateNumber = () => {
@@ -45,7 +45,7 @@ const Clients = () => {
         data-aos-anchor-placement="top-bottom">
           <i className="fa fa-smile"></i>
           <br />
-          <span className="counter-numbers" data-number="2000">
+          <span className="counter-numbers" data-number="1000">
             0
           </span>
 
@@ -76,7 +76,7 @@ const Clients = () => {
         data-aos-anchor-placement="top-bottom">
           <i className="fa fa-star"></i>
           <br />
-          <span className="counter-numbers" data-number="1200">
+          <span className="counter-numbers" data-number="900">
             0
           </span>
           <p>POSITIVE FEEDBACKS</p>

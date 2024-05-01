@@ -66,7 +66,7 @@ const Services = () => {
             </div>
             <div className="services-item">
               <i className="fa-solid fa-database"></i>
-              <h5>DataBase</h5>
+              <h5>Database</h5>
               <p>
                 <Content
                   ddata={`I do database design or database programming, responsible for
