@@ -11,7 +11,7 @@ import ArticlesComponent from "./Components/particles/particlecomponents";
 function App() {
   // fade slide---------------
   useEffect(() => {
-    Aos.init({ duration: 2500 });
+    Aos.init({ duration: 2000 });
   }, []);
   return (
     <div className="App" style={{backgroundColor:'#00855850',height:'50vh'}}>
