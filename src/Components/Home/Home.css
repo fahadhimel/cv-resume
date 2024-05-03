@@ -15,10 +15,12 @@ p::selection {
   background: rgba(143, 143, 197, 0.932);
 }
 
-.all {
-  position: relative;
-  width: 1700px;
-  margin: 0 auto;
+@media screen and (min-width: 1700px) {
+  .all {
+    position: relative;
+    width: 1700px;
+    margin: 0 auto;
+  }
 }
 
 .all-home {
