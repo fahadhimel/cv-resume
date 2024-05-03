@@ -21,7 +21,7 @@ const blog_Posts = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    //autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2500,
     pauseOnHover: true,
     centerPadding: "60px",
@@ -57,8 +57,11 @@ const blog_Posts = () => {
       <div className="blog-head">
         <span>RECENT BLOG</span>
       </div>
-      <div className="blog-post" data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom">
+      <div
+        className="blog-post"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom"
+      >
         <Slider {...settings}>
           <div className="blog-item">
             <div className="blog-item-top">
@@ -100,7 +103,6 @@ const blog_Posts = () => {
               </p>
             </div>
           </div>
-          {/*  */}
           <div className="blog-item">
             <div className="blog-item-top">
               <a href={bimg3} data-lightbox="models" data-title="Blog 18">
@@ -202,7 +204,7 @@ const Content = ({ data }) => {
   };
   return (
     <span className="t-text">
-      {isReadMore ? text.slice(0, 120) : text}
+      {isReadMore ? text.slice(0, 100) : text}
       <span onClick={toggleReadMore} className="read-or-hide">
         {isReadMore ? "...read more" : " show less"}
       </span>

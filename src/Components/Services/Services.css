@@ -70,8 +70,8 @@
   color: #fff;
   border-radius: 100%;
 }
-.services-item:hover.services-item i{
-  background-color:#fff ;
+.services-item:hover.services-item i {
+  background-color: #fff;
   color: var(--rootColor);
 }
 .services-item h5 {
@@ -83,8 +83,10 @@
   font-family: "Montserrat", sans-serif;
   /* display: flex; */
   text-align: justify;
+  font-weight: 600;
 }
-.services-item:hover.services-item h5,.services-item:hover.services-item p{
+.services-item:hover.services-item h5,
+.services-item:hover.services-item p {
   color: #fff;
 }
 

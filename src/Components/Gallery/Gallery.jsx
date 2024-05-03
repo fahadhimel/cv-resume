@@ -7,7 +7,7 @@ import img1 from "../../Images/gallery/web1.jpg";
 import img2 from "../../Images/gallery/code1.jpg";
 import img3 from "../../Images/gallery/native1.png";
 import img4 from "../../Images/gallery/react1.gif";
-import img5 from "../../Images/gallery/code2.jpg";
+import img5 from "../../Images/gallery/nest2.png";
 import img6 from "../../Images/gallery/native2.jpg";
 import img7 from "../../Images/gallery/web5.jpg";
 import img8 from "../../Images/gallery/core1.png";
@@ -63,7 +63,7 @@ const Gallery = () => {
       <div className="box" id="store-items">
         <div className="store-item web">
           <a href={img1} data-lightbox="models" data-title="Caption1">
-            <img src={img1} alt="images" className="store-img" />
+            <img src={img1} alt="images" className="store-img" height={400} />
             <div className="overlay">
               <i className="fa-solid fa-magnifying-glass-plus"></i>
             </div>
@@ -96,7 +96,7 @@ const Gallery = () => {
         </div>
         <div className="store-item logo">
           <a href={img5} data-lightbox="models" data-title="Caption5">
-            <img src={img5} alt="images" className="store-img" />
+            <img src={img5} alt="images" className="store-img" height={200} />
             <div className="overlay">
               <i className="fa-solid fa-magnifying-glass-plus"></i>
             </div>
@@ -113,7 +113,7 @@ const Gallery = () => {
 
         <div className="store-item web">
           <a href={img7} data-lightbox="models" data-title="Caption7">
-            <img src={img7} alt="images" className="store-img" />
+            <img src={img7} alt="images" className="store-img" height={225} />
             <div className="overlay">
               <i className="fa-solid fa-magnifying-glass-plus"></i>
             </div>

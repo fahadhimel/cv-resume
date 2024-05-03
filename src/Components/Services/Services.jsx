@@ -12,8 +12,11 @@ const Services = () => {
         </div>
 
         <div className="services-body">
-          <div className="services-body-top" data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom">
+          <div
+            className="services-body-top"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <div className="services-item">
               <i className="fa-solid fa-desktop"></i>
               <h5>Web Design</h5>
@@ -50,8 +53,11 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="services-body-button" data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom">
+          <div
+            className="services-body-button"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <div className="services-item">
               <i className="fa-solid fa-arrows-left-right-to-line"></i>
               <h5>API</h5>

@@ -15,6 +15,12 @@ p::selection {
   background: rgba(143, 143, 197, 0.932);
 }
 
+.all {
+  position: relative;
+  width: 1700px;
+  margin: 0 auto;
+}
+
 .all-home {
   width: 100%;
   height: 100vh;
@@ -47,8 +53,8 @@ p::selection {
 }
 .home .home-left .fahad-himel {
   /* color: #458ed8; */
-  color:var(--rootColor);
-  font-family: 'Kaushan Script', cursive;
+  color: var(--rootColor);
+  font-family: "Kaushan Script", cursive;
 }
 
 .home-div-btn {
@@ -61,7 +67,7 @@ p::selection {
   color: #fff;
   /* background-color: #458ed8;
   border: 2px solid #458ed8; */
-  background-color:var(--rootColor);
+  background-color: var(--rootColor);
   border: 2px solid var(--rootColor);
   padding: 6px 20px;
   margin-right: 20px;
@@ -258,4 +264,3 @@ p::selection {
     font-size: 9px;
   }
 }
-

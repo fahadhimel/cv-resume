@@ -145,17 +145,17 @@
   text-align: start;
   padding-top: 5px;
 }
-.experience_content{
+.experience_content {
   text-align: start;
 }
-.experience_p{
+.experience_p {
   margin: 0px;
   font-size: 15px;
   line-height: 20px;
-  font-weight: 100;
+  font-weight: 300;
   text-align: justify;
 }
-.experience_p p{
+.experience_p p {
   margin: 0;
 }
 .label-div-left {
@@ -193,8 +193,6 @@
   margin: 2.5% 0px 0px 11.5%;
   z-index: 2;
 }
-
-
 
 @media screen and (min-width: 1401px) {
   .timeline > li .tmtime span:last-child {
@@ -260,7 +258,6 @@
     height: 13px;
     margin: 1.8% 0px 0px 11.9%;
   }
-
 }
 
 @media screen and (max-width: 1180px) {
@@ -318,7 +315,6 @@
     height: 13px;
     margin: 1.8% 0px 0px 11.8%;
   }
-
 }
 
 @media screen and (max-width: 1080px) {
@@ -376,7 +372,6 @@
     height: 13px;
     margin: 1.8% 0px 0px 11.7%;
   }
-
 }
 
 @media screen and (max-width: 970px) {
@@ -434,7 +429,6 @@
     height: 13px;
     margin: 1.8% 0px 0px 11.5%;
   }
-
 }
 
 @media screen and (max-width: 870px) {
@@ -487,7 +481,6 @@
   .label-div {
     padding-top: 0px;
   }
-
 
   .timeline > li .icon {
     width: 15px;
@@ -733,7 +726,7 @@
   .label-div-right p {
     font-size: 11.4px;
   }
-  .experience_p p{
+  .experience_p p {
     font-size: 11.4px;
   }
 }
@@ -742,7 +735,7 @@
   .label-div-right p {
     font-size: 10.4px;
   }
-  .experience_p p{
+  .experience_p p {
     font-size: 10.4px;
   }
 }
@@ -794,17 +787,16 @@
   .label-div-right p {
     font-size: 9px;
   }
-  .experience_p p{
+  .experience_p p {
     font-size: 9px;
   }
-
 }
 @media screen and (max-width: 320px) {
   .label-div-left p,
   .label-div-right p {
     font-size: 7.8px;
   }
-  .experience_p p{
+  .experience_p p {
     font-size: 7.8px;
   }
 }
